@@ -1,0 +1,437 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Roots >
+  <Roots.Interfaces>
+    <RootInterface FullName="Windows.UI.Xaml.Data.IValueConverter" />
+  </Roots.Interfaces>
+  <Roots.PropertyPathNames>
+    <RootPropertyPathName Name="TemplateSettings" />
+    <RootPropertyPathName Name="KeyboardAcceleratorTextMinWidth" />
+    <RootPropertyPathName Name="Scene" />
+    <RootPropertyPathName Name="Basemap" />
+    <RootPropertyPathName Name="Item" />
+    <RootPropertyPathName Name="ThumbnailUri" />
+    <RootPropertyPathName Name="SyncMapAreaCommand" />
+    <RootPropertyPathName Name="ResetMapCommand" />
+    <RootPropertyPathName Name="OpenMapFileCommand" />
+    <RootPropertyPathName Name="DownloadMapAreaCommand" />
+    <RootPropertyPathName Name="ZoomToAreasCommand" />
+    <RootPropertyPathName Name="MapAreas" />
+    <RootPropertyPathName Name="IsMapOnline" />
+    <RootPropertyPathName Name="SelectedMapArea" />
+    <RootPropertyPathName Name="DisplayColor" />
+    <RootPropertyPathName Name="Title" />
+    <RootPropertyPathName Name="Thumbnail" />
+    <RootPropertyPathName Name="QueryMapAreasCommand" />
+    <RootPropertyPathName Name="GenerateMapAreaCommand" />
+    <RootPropertyPathName Name="IncludeBasemap" />
+    <RootPropertyPathName Name="SelectedLevelOfDetail" />
+    <RootPropertyPathName Name="MaximumLevelOfDetail" />
+    <RootPropertyPathName Name="SelectedMaximumScale" />
+    <RootPropertyPathName Name="SelectedMinimumScale" />
+    <RootPropertyPathName Name="Map" />
+    <RootPropertyPathName Name="ViewModel" />
+    <RootPropertyPathName Name="SelectedItem" />
+    <RootPropertyPathName Name="PortalViewModel" />
+    <RootPropertyPathName Name="TypeFilter" />
+    <RootPropertyPathName Name="UserProfile" />
+    <RootPropertyPathName Name="User" />
+    <RootPropertyPathName Name="Tags" />
+    <RootPropertyPathName Name="UserDescription" />
+    <RootPropertyPathName Name="UnitSystem" />
+    <RootPropertyPathName Name="Role" />
+    <RootPropertyPathName Name="Culture" />
+    <RootPropertyPathName Name="Created" />
+    <RootPropertyPathName Name="Email" />
+    <RootPropertyPathName Name="FullName" />
+    <RootPropertyPathName Name="UserName" />
+    <RootPropertyPathName Name="ProfilePicture" />
+  </Roots.PropertyPathNames>
+  <Roots.RootTypes>
+    <RootType FullName="Windows.UI.Xaml.Application">
+      <RootProperty Name="Resources" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.ResourceDictionary">
+      <RootProperty Name="MergedDictionaries" />
+    </RootType>
+    <RootType FullName="OfflineWorkflowsSample.MainViewModel" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Button">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Command" />
+      <RootProperty Name="Content" />
+      <RootProperty Name="CommandParameter" />
+      <RootProperty Name="Visibility" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.FrameworkElement">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="AllowFocusOnInteraction" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Control">
+      <RootProperty Name="CornerRadius" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="BorderBrush" />
+      <RootProperty Name="FontFamily" />
+      <RootProperty Name="FontWeight" />
+      <RootProperty Name="UseSystemFocusVisuals" />
+      <RootProperty Name="Template" />
+      <RootProperty Name="HorizontalContentAlignment" />
+      <RootProperty Name="Padding" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ComboBox">
+      <RootProperty Name="ItemsSource" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="SelectedItem" />
+      <RootProperty Name="ItemTemplate" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.AutoSuggestBox">
+      <RootProperty Name="CornerRadius" />
+      <RootProperty Name="PlaceholderText" />
+      <RootProperty Name="Text" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.MenuFlyoutPresenter" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Primitives.ToggleButton" />
+    <RootType FullName="Windows.UI.Xaml.Controls.AppBarButton">
+      <RootProperty Name="Height" />
+      <RootProperty Name="Icon" />
+      <RootProperty Name="IsCompact" />
+      <RootProperty Name="Label" />
+      <RootProperty Name="Flyout" />
+      <RootProperty Name="Command" />
+      <RootEvent Name="Click" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.UIElement">
+      <RootProperty Name="KeyboardAcceleratorPlacementMode" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Setter">
+      <RootProperty Name="Property" />
+      <RootProperty Name="Value" />
+      <RootProperty Name="Target" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ControlTemplate">
+      <RootProperty Name="TargetType" />
+      <RootProperty Name="Template" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Grid">
+      <RootProperty Name="MinWidth" />
+      <RootProperty Name="MaxWidth" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="BorderBrush" />
+      <RootProperty Name="BorderThickness" />
+      <RootProperty Name="CornerRadius" />
+      <RootProperty Name="Children" />
+      <RootProperty Name="MinHeight" />
+      <RootProperty Name="ColumnDefinitions" />
+      <RootProperty Name="RowDefinitions" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="ColumnSpacing" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Padding" />
+      <RootProperty Name="RowSpacing" />
+      <RootProperty Name="Resources" />
+      <RootMethod Name="GetRow" />
+      <RootMethod Name="SetRow" />
+      <RootMethod Name="GetColumn" />
+      <RootMethod Name="SetColumn" />
+      <RootMethod Name="GetRowSpan" />
+      <RootMethod Name="SetRowSpan" />
+      <RootMethod Name="GetColumnSpan" />
+      <RootMethod Name="SetColumnSpan" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.VisualStateManager">
+      <RootMethod Name="GetVisualStateGroups" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.TemplateBindingExtension" />
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ColumnDefinition">
+      <RootProperty Name="Width" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
+      <RootProperty Name="Height" />
+      <RootProperty Name="MinHeight" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Viewbox">
+      <RootProperty Name="Height" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Child" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Automation.AutomationProperties">
+      <RootMethod Name="GetAccessibilityView" />
+      <RootMethod Name="SetAccessibilityView" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="FontFamily" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="Text" />
+      <RootProperty Name="TextAlignment" />
+      <RootProperty Name="TextWrapping" />
+      <RootProperty Name="Padding" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="TextTrimming" />
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="MinWidth" />
+      <RootProperty Name="Style" />
+      <RootProperty Name="Opacity" />
+      <RootProperty Name="Inlines" />
+      <RootProperty Name="HorizontalTextAlignment" />
+      <RootProperty Name="FontWeight" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.FontIcon">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="FontFamily" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="Glyph" />
+      <RootProperty Name="MirroredWhenRightToLeft" />
+      <RootProperty Name="Visibility" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Data.Binding">
+      <RootProperty Name="RelativeSource" />
+      <RootProperty Name="Path" />
+      <RootProperty Name="Mode" />
+      <RootProperty Name="Converter" />
+      <RootProperty Name="Source" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Data.RelativeSource" />
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.StaticResourceExtension" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ContentPresenter">
+      <RootProperty Name="Height" />
+      <RootProperty Name="Content" />
+      <RootProperty Name="Foreground" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.VisualStateGroup">
+      <RootProperty Name="States" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.VisualState">
+      <RootProperty Name="Setters" />
+      <RootProperty Name="Storyboard" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.Animation.Storyboard">
+      <RootProperty Name="Children" />
+      <RootMethod Name="GetTargetName" />
+      <RootMethod Name="SetTargetName" />
+      <RootMethod Name="GetTargetProperty" />
+      <RootMethod Name="SetTargetProperty" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.Animation.PointerUpThemeAnimation" />
+    <RootType FullName="Windows.UI.Xaml.Media.Animation.PointerDownThemeAnimation" />
+    <RootType FullName="Windows.UI.Xaml.Media.Animation.ObjectAnimationUsingKeyFrames">
+      <RootProperty Name="KeyFrames" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.Animation.DiscreteObjectKeyFrame">
+      <RootProperty Name="KeyTime" />
+      <RootProperty Name="Value" />
+    </RootType>
+    <RootType FullName="Microsoft.UI.Xaml.Controls.XamlControlsResources" />
+    <RootType FullName="OfflineWorkflowsSample.TemplatesResourceDictionary" />
+    <RootType FullName="Windows.UI.Xaml.DataTemplate">
+      <RootProperty Name="Template" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Border">
+      <RootProperty Name="Padding" />
+      <RootProperty Name="BorderBrush" />
+      <RootProperty Name="BorderThickness" />
+      <RootProperty Name="CornerRadius" />
+      <RootProperty Name="Child" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="Visibility" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Image">
+      <RootProperty Name="Source" />
+      <RootProperty Name="Stretch" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="MaxWidth" />
+      <RootProperty Name="MaxHeight" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.BindExtension">
+      <RootProperty Name="Mode" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.UserControl">
+      <RootProperty Name="Resources" />
+      <RootProperty Name="Content" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Pivot">
+      <RootProperty Name="Items" />
+      <RootProperty Name="Background" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.PivotItem">
+      <RootProperty Name="Header" />
+      <RootProperty Name="Content" />
+      <RootProperty Name="DataContext" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ScrollViewer">
+      <RootProperty Name="Content" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
+      <RootProperty Name="Children" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Padding" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Orientation" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ListView">
+      <RootProperty Name="ItemTemplate" />
+      <RootProperty Name="ItemsSource" />
+      <RootProperty Name="IsEnabled" />
+      <RootProperty Name="SelectedItem" />
+      <RootProperty Name="ItemContainerStyle" />
+      <RootProperty Name="SelectionMode" />
+      <RootProperty Name="Background" />
+    </RootType>
+    <RootType FullName="Esri.ArcGISRuntime.Toolkit.UI.Controls.Legend">
+      <RootProperty Name="GeoView" />
+    </RootType>
+    <RootType FullName="Esri.ArcGISRuntime.UI.Controls.SceneView">
+      <RootProperty Name="Scene" />
+    </RootType>
+    <RootType FullName="Esri.ArcGISRuntime.Toolkit.UI.Controls.Compass">
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="AutoHide" />
+      <RootProperty Name="GeoView" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Flyout">
+      <RootProperty Name="Content" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.GridView">
+      <RootProperty Name="Width" />
+      <RootProperty Name="ItemsSource" />
+      <RootProperty Name="SelectedItem" />
+      <RootProperty Name="ItemTemplate" />
+      <RootProperty Name="Margin" />
+    </RootType>
+    <RootType FullName="OfflineWorkflowSample.Controls.SceneWithTools">
+      <RootProperty Name="Scene" />
+      <RootProperty Name="Item" />
+    </RootType>
+    <RootType FullName="OfflineWorkflowSample.Converters.ColorToBrushConverter" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ListViewItem" />
+    <RootType FullName="OfflineWorkflowsSample.DownloadMapArea.DownloadMapAreaView">
+      <RootProperty Name="DataContext" />
+    </RootType>
+    <RootType FullName="OfflineWorkflowSample.Converters.DoubleToScaleStringConverter" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Slider">
+      <RootProperty Name="TickFrequency" />
+      <RootProperty Name="Value" />
+      <RootProperty Name="Maximum" />
+      <RootProperty Name="IsEnabled" />
+      <RootProperty Name="Minimum" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ToggleSwitch">
+      <RootProperty Name="Header" />
+      <RootProperty Name="IsEnabled" />
+      <RootProperty Name="IsOn" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Documents.Run">
+      <RootProperty Name="Text" />
+    </RootType>
+    <RootType FullName="OfflineWorkflowsSample.GenerateMapArea.GenerateMapAreaView">
+      <RootProperty Name="DataContext" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Page">
+      <RootProperty Name="RequestedTheme" />
+      <RootProperty Name="NavigationCacheMode" />
+      <RootProperty Name="Content" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="Resources" />
+      <RootProperty Name="Padding" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.WebView" />
+    <RootType FullName="OfflineWorkflowSample.Views.ItemPages.GenericItemPage" />
+    <RootType FullName="OfflineWorkflowSample.ViewModels.ItemPages.MapPageViewModel" />
+    <RootType FullName="OfflineWorkflowSample.MapWithTools">
+      <RootProperty Name="Map" />
+      <RootProperty Name="Item" />
+    </RootType>
+    <RootType FullName="OfflineWorkflowSample.Views.ItemPages.MapPage" />
+    <RootType FullName="OfflineWorkflowSample.ViewModels.ItemPages.ScenePageViewModel" />
+    <RootType FullName="OfflineWorkflowSample.Views.ItemPages.ScenePage" />
+    <RootType FullName="OfflineWorkflowSample.ViewModels.LoginViewModel" />
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
+      <RootProperty Name="Text" />
+      <RootProperty Name="Visibility" />
+    </RootType>
+    <RootType FullName="OfflineWorkflowSample.LoginPage" />
+    <RootType FullName="Esri.ArcGISRuntime.UI.Controls.MapView">
+      <RootProperty Name="Map" />
+    </RootType>
+    <RootType FullName="OfflineWorkflowsSample.Infrastructure.ViewServices.GeoViewServiceBase`1[[Esri.ArcGISRuntime.UI.Controls.MapView, Esri.ArcGISRuntime.UWP, Version=200.0.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86]]">
+      <RootMethod Name="GetViewService" />
+      <RootMethod Name="SetViewService" />
+    </RootType>
+    <RootType FullName="OfflineWorkflowSample.ViewModels.OfflineMapViewModel" />
+    <RootType FullName="Windows.UI.Xaml.Controls.SplitView">
+      <RootProperty Name="IsPaneOpen" />
+      <RootProperty Name="DisplayMode" />
+      <RootProperty Name="PaneBackground" />
+      <RootProperty Name="PanePlacement" />
+      <RootProperty Name="Pane" />
+      <RootProperty Name="Content" />
+    </RootType>
+    <RootType FullName="OfflineWorkflowSample.Views.OfflineMapPage" />
+    <RootType FullName="Windows.UI.Xaml.Media.SolidColorBrush">
+      <RootProperty Name="Color" />
+    </RootType>
+    <RootType FullName="Microsoft.UI.Xaml.Controls.NavigationView">
+      <RootProperty Name="Background" />
+      <RootProperty Name="IsBackEnabled" />
+      <RootProperty Name="PaneDisplayMode" />
+      <RootProperty Name="MenuItems" />
+      <RootProperty Name="FooterMenuItems" />
+      <RootProperty Name="Content" />
+      <RootEvent Name="BackRequested" />
+      <RootEvent Name="ItemInvoked" />
+    </RootType>
+    <RootType FullName="Microsoft.UI.Xaml.Controls.NavigationViewItem">
+      <RootProperty Name="Content" />
+      <RootProperty Name="Icon" />
+      <RootProperty Name="Tag" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.PersonPicture">
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="DisplayName" />
+      <RootProperty Name="ProfilePicture" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Frame">
+      <RootProperty Name="CacheSize" />
+    </RootType>
+    <RootType FullName="OfflineWorkflowSample.Views.NavigationPage" />
+    <RootType FullName="OfflineWorkflowSample.Views.OfflineMapsView" />
+    <RootType FullName="OfflineWorkflowSample.Infrastructure.Converter.NullEnumToBlankStringConverter" />
+    <RootType FullName="Windows.UI.Xaml.Controls.CheckBox">
+      <RootProperty Name="IsChecked" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Content" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.SearchBox">
+      <RootProperty Name="QueryText" />
+      <RootProperty Name="PlaceholderText" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="SearchHistoryEnabled" />
+    </RootType>
+    <RootType FullName="OfflineWorkflowSample.Views.PortalBrowserView" />
+    <RootType FullName="OfflineWorkflowSample.Views.PortalGroupView" />
+    <RootType FullName="OfflineWorkflowSample.Views.SearchPage" />
+    <RootType FullName="OfflineWorkflowSample.Views.SettingsPage" />
+  </Roots.RootTypes>
+</Roots>

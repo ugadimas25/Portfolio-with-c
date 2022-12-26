@@ -1,0 +1,1137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-EI4LGQ3</Machine>
+    <WindowsUser>User</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>aa820130-5291-4860-9fd2-78bb0b83ccd3</PackageIdentityName>
+    <PackageIdentityPublisher>CN=antt0000</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\obj\x64\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType></RemoteDeploymentType>
+    <PackageRegistrationPath></PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\bin\x64\Debug\AppX</LayoutDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\bin\x64\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\bin\x64\Debug\OfflineWorkflowSample.exe">
+      <PackagePath>entrypoint\OfflineWorkflowSample.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.web.webview2\1.0.1264.42\build\..\runtimes\win-x64\native_uap\Microsoft.Web.WebView2.Core.dll">
+      <PackagePath>Microsoft.Web.WebView2.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\commonservicelocator\1.3.0\lib\portable-net4+sl5+netcore45+wpa81+wp8\Microsoft.Practices.ServiceLocation.dll">
+      <PackagePath>Microsoft.Practices.ServiceLocation.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime\200.0.0\lib\uap10.0.17763\Esri.ArcGISRuntime.dll">
+      <PackagePath>Esri.ArcGISRuntime.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime\200.0.0\lib\netstandard2.0\ar\Esri.ArcGISRuntime.resources.dll">
+      <PackagePath>ar\Esri.ArcGISRuntime.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime\200.0.0\lib\netstandard2.0\bg\Esri.ArcGISRuntime.resources.dll">
+      <PackagePath>bg\Esri.ArcGISRuntime.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime\200.0.0\lib\netstandard2.0\bs\Esri.ArcGISRuntime.resources.dll">
+      <PackagePath>bs\Esri.ArcGISRuntime.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime\200.0.0\lib\netstandard2.0\ca\Esri.ArcGISRuntime.resources.dll">
+      <PackagePath>ca\Esri.ArcGISRuntime.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime\200.0.0\lib\netstandard2.0\cs\Esri.ArcGISRuntime.resources.dll">
+      <PackagePath>cs\Esri.ArcGISRuntime.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime\200.0.0\lib\netstandard2.0\da\Esri.ArcGISRuntime.resources.dll">
+      <PackagePath>da\Esri.ArcGISRuntime.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime\200.0.0\lib\netstandard2.0\de\Esri.ArcGISRuntime.resources.dll">
+      <PackagePath>de\Esri.ArcGISRuntime.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime\200.0.0\lib\netstandard2.0\el\Esri.ArcGISRuntime.resources.dll">
+      <PackagePath>el\Esri.ArcGISRuntime.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime\200.0.0\lib\netstandard2.0\es\Esri.ArcGISRuntime.resources.dll">
+      <PackagePath>es\Esri.ArcGISRuntime.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime\200.0.0\lib\netstandard2.0\et\Esri.ArcGISRuntime.resources.dll">
+      <PackagePath>et\Esri.ArcGISRuntime.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime\200.0.0\lib\netstandard2.0\fi\Esri.ArcGISRuntime.resources.dll">
+      <PackagePath>fi\Esri.ArcGISRuntime.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime\200.0.0\lib\netstandard2.0\fr\Esri.ArcGISRuntime.resources.dll">
+      <PackagePath>fr\Esri.ArcGISRuntime.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime\200.0.0\lib\netstandard2.0\he\Esri.ArcGISRuntime.resources.dll">
+      <PackagePath>he\Esri.ArcGISRuntime.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime\200.0.0\lib\netstandard2.0\hr\Esri.ArcGISRuntime.resources.dll">
+      <PackagePath>hr\Esri.ArcGISRuntime.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime\200.0.0\lib\netstandard2.0\hu\Esri.ArcGISRuntime.resources.dll">
+      <PackagePath>hu\Esri.ArcGISRuntime.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime\200.0.0\lib\netstandard2.0\id\Esri.ArcGISRuntime.resources.dll">
+      <PackagePath>id\Esri.ArcGISRuntime.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime\200.0.0\lib\netstandard2.0\it\Esri.ArcGISRuntime.resources.dll">
+      <PackagePath>it\Esri.ArcGISRuntime.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime\200.0.0\lib\netstandard2.0\ja\Esri.ArcGISRuntime.resources.dll">
+      <PackagePath>ja\Esri.ArcGISRuntime.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime\200.0.0\lib\netstandard2.0\ko\Esri.ArcGISRuntime.resources.dll">
+      <PackagePath>ko\Esri.ArcGISRuntime.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime\200.0.0\lib\netstandard2.0\lt\Esri.ArcGISRuntime.resources.dll">
+      <PackagePath>lt\Esri.ArcGISRuntime.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime\200.0.0\lib\netstandard2.0\lv\Esri.ArcGISRuntime.resources.dll">
+      <PackagePath>lv\Esri.ArcGISRuntime.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime\200.0.0\lib\netstandard2.0\nb-NO\Esri.ArcGISRuntime.resources.dll">
+      <PackagePath>nb-NO\Esri.ArcGISRuntime.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime\200.0.0\lib\netstandard2.0\nl\Esri.ArcGISRuntime.resources.dll">
+      <PackagePath>nl\Esri.ArcGISRuntime.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime\200.0.0\lib\netstandard2.0\no\Esri.ArcGISRuntime.resources.dll">
+      <PackagePath>no\Esri.ArcGISRuntime.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime\200.0.0\lib\netstandard2.0\pl\Esri.ArcGISRuntime.resources.dll">
+      <PackagePath>pl\Esri.ArcGISRuntime.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime\200.0.0\lib\netstandard2.0\pt-BR\Esri.ArcGISRuntime.resources.dll">
+      <PackagePath>pt-BR\Esri.ArcGISRuntime.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime\200.0.0\lib\netstandard2.0\pt-PT\Esri.ArcGISRuntime.resources.dll">
+      <PackagePath>pt-PT\Esri.ArcGISRuntime.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime\200.0.0\lib\netstandard2.0\ro\Esri.ArcGISRuntime.resources.dll">
+      <PackagePath>ro\Esri.ArcGISRuntime.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime\200.0.0\lib\netstandard2.0\ru\Esri.ArcGISRuntime.resources.dll">
+      <PackagePath>ru\Esri.ArcGISRuntime.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime\200.0.0\lib\netstandard2.0\sk\Esri.ArcGISRuntime.resources.dll">
+      <PackagePath>sk\Esri.ArcGISRuntime.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime\200.0.0\lib\netstandard2.0\sl\Esri.ArcGISRuntime.resources.dll">
+      <PackagePath>sl\Esri.ArcGISRuntime.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime\200.0.0\lib\netstandard2.0\sr\Esri.ArcGISRuntime.resources.dll">
+      <PackagePath>sr\Esri.ArcGISRuntime.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime\200.0.0\lib\netstandard2.0\sv\Esri.ArcGISRuntime.resources.dll">
+      <PackagePath>sv\Esri.ArcGISRuntime.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime\200.0.0\lib\netstandard2.0\th\Esri.ArcGISRuntime.resources.dll">
+      <PackagePath>th\Esri.ArcGISRuntime.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime\200.0.0\lib\netstandard2.0\tr\Esri.ArcGISRuntime.resources.dll">
+      <PackagePath>tr\Esri.ArcGISRuntime.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime\200.0.0\lib\netstandard2.0\uk\Esri.ArcGISRuntime.resources.dll">
+      <PackagePath>uk\Esri.ArcGISRuntime.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime\200.0.0\lib\netstandard2.0\vi\Esri.ArcGISRuntime.resources.dll">
+      <PackagePath>vi\Esri.ArcGISRuntime.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime\200.0.0\lib\netstandard2.0\zh-CN\Esri.ArcGISRuntime.resources.dll">
+      <PackagePath>zh-CN\Esri.ArcGISRuntime.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime\200.0.0\lib\netstandard2.0\zh-HK\Esri.ArcGISRuntime.resources.dll">
+      <PackagePath>zh-HK\Esri.ArcGISRuntime.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime\200.0.0\lib\netstandard2.0\zh-Hans\Esri.ArcGISRuntime.resources.dll">
+      <PackagePath>zh-Hans\Esri.ArcGISRuntime.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime\200.0.0\lib\netstandard2.0\zh-TW\Esri.ArcGISRuntime.resources.dll">
+      <PackagePath>zh-TW\Esri.ArcGISRuntime.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.runtimes.win10\200.0.0\runtimes\win10-x64\native\RuntimeCoreNet200_0.dll">
+      <PackagePath>RuntimeCoreNet200_0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.runtimes.win10\200.0.0\runtimes\win10-x64\native\runtimecore.dll">
+      <PackagePath>runtimecore.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.toolkit.uwp\200.0.0\lib\uap10.0.17763\Esri.ArcGISRuntime.Toolkit.UWP.dll">
+      <PackagePath>Esri.ArcGISRuntime.Toolkit.UWP.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\runtimes\win10-x64\native\runtimecorenet.uwp.dll">
+      <PackagePath>runtimecorenet.uwp.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\lib\uap10.0.17763\Esri.ArcGISRuntime.UWP.dll">
+      <PackagePath>Esri.ArcGISRuntime.UWP.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.web.webview2\1.0.1264.42\runtimes\win-x64\native\WebView2Loader.dll">
+      <PackagePath>WebView2Loader.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\prism.core\6.3.0\lib\wpa81\Prism.dll">
+      <PackagePath>Prism.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\prism.windows\6.3.0\lib\uap10.0\Prism.Windows.dll">
+      <PackagePath>Prism.Windows.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.14\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.runtimes.win10\200.0.0\runtimes\win10-x64\native\runtimecoreAssembly.manifest">
+      <PackagePath>runtimecoreAssembly.manifest</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.22000.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
+      <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.web.webview2\1.0.1264.42\lib\Microsoft.Web.WebView2.Core.winmd">
+      <PackagePath>Microsoft.Web.WebView2.Core.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.toolkit.uwp\200.0.0\lib\uap10.0.17763\Esri.ArcGISRuntime.Toolkit.UWP\Esri.ArcGISRuntime.Toolkit.UWP.xr.xml">
+      <PackagePath>Esri.ArcGISRuntime.Toolkit.UWP\Esri.ArcGISRuntime.Toolkit.UWP.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\lib\uap10.0.17763\Esri.ArcGISRuntime.UWP\Esri.ArcGISRuntime.UWP.xr.xml">
+      <PackagePath>Esri.ArcGISRuntime.UWP\Esri.ArcGISRuntime.UWP.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.toolkit.uwp\200.0.0\lib\uap10.0.17763\Esri.ArcGISRuntime.Toolkit.UWP\Assets\calcite-ui-icons-24.ttf">
+      <PackagePath>Esri.ArcGISRuntime.Toolkit.UWP\Assets\calcite-ui-icons-24.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.toolkit.uwp\200.0.0\lib\uap10.0.17763\Esri.ArcGISRuntime.Toolkit.UWP\Assets\MeasureArea.scale-200.png">
+      <PackagePath>Esri.ArcGISRuntime.Toolkit.UWP\Assets\MeasureArea.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.toolkit.uwp\200.0.0\lib\uap10.0.17763\Esri.ArcGISRuntime.Toolkit.UWP\Assets\MeasureAreaDark.scale-200.png">
+      <PackagePath>Esri.ArcGISRuntime.Toolkit.UWP\Assets\MeasureAreaDark.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.toolkit.uwp\200.0.0\lib\uap10.0.17763\Esri.ArcGISRuntime.Toolkit.UWP\Assets\MeasureFeature.scale-200.png">
+      <PackagePath>Esri.ArcGISRuntime.Toolkit.UWP\Assets\MeasureFeature.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.toolkit.uwp\200.0.0\lib\uap10.0.17763\Esri.ArcGISRuntime.Toolkit.UWP\Assets\MeasureFeatureDark.scale-200.png">
+      <PackagePath>Esri.ArcGISRuntime.Toolkit.UWP\Assets\MeasureFeatureDark.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.toolkit.uwp\200.0.0\lib\uap10.0.17763\Esri.ArcGISRuntime.Toolkit.UWP\Assets\MeasureLength.scale-200.png">
+      <PackagePath>Esri.ArcGISRuntime.Toolkit.UWP\Assets\MeasureLength.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.toolkit.uwp\200.0.0\lib\uap10.0.17763\Esri.ArcGISRuntime.Toolkit.UWP\Assets\MeasureLengthDark.scale-200.png">
+      <PackagePath>Esri.ArcGISRuntime.Toolkit.UWP\Assets\MeasureLengthDark.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime\200.0.0\resources\network_analyst\strings.bin">
+      <PackagePath>RuntimeCoreNet\resources\network_analyst\strings.bin</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\atmosphere_accurate_3d_ps.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\atmosphere_accurate_3d_ps.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\atmosphere_accurate_3d_vs.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\atmosphere_accurate_3d_vs.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\atmosphere_textured_3d_ps.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\atmosphere_textured_3d_ps.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\atmosphere_textured_3d_vs.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\atmosphere_textured_3d_vs.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\basic_draw_ps.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\basic_draw_ps.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\basic_draw_vs.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\basic_draw_vs.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\basic_usage_3d_depth_ps.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\basic_usage_3d_depth_ps.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\color_draw_ps.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\color_draw_ps.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\color_draw_vs.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\color_draw_vs.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\deferred_full_screen_rem_ps.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\deferred_full_screen_rem_ps.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\full_screen_quad_vs.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\full_screen_quad_vs.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\magnifier_draw_ps.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\magnifier_draw_ps.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\magnifier_draw_vs.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\magnifier_draw_vs.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\measure_line_depth_ps.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\measure_line_depth_ps.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\measure_line_draw_ps.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\measure_line_draw_ps.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\measure_line_draw_vs.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\measure_line_draw_vs.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\modelline_3d_depth_vs.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\modelline_3d_depth_vs.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\modelline_3d_normal_vs.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\modelline_3d_normal_vs.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\point_3d_billboard_ps.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\point_3d_billboard_ps.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\point_3d_billboard_sdf_draw_ps.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\point_3d_billboard_sdf_draw_ps.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\point_3d_billboard_sdf_draw_vs.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\point_3d_billboard_sdf_draw_vs.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\point_3d_billboard_vs.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\point_3d_billboard_vs.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\point_3d_depth_vs.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\point_3d_depth_vs.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\point_3d_overlay_ps.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\point_3d_overlay_ps.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\point_3d_overlay_vs.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\point_3d_overlay_vs.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\point_cloud_3d_depth_ps.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\point_cloud_3d_depth_ps.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\point_cloud_3d_depth_vs.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\point_cloud_3d_depth_vs.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\point_cloud_3d_draw_ps.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\point_cloud_3d_draw_ps.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\point_cloud_3d_draw_vs.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\point_cloud_3d_draw_vs.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\polygon_3d_depth_vs.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\polygon_3d_depth_vs.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\polygon_3d_normal_ps.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\polygon_3d_normal_ps.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\polygon_3d_overlay_ps.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\polygon_3d_overlay_ps.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\polygon_3d_vs.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\polygon_3d_vs.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\polygon_outline_3d_overlay_ps.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\polygon_outline_3d_overlay_ps.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\polygon_outline_3d_overlay_vs.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\polygon_outline_3d_overlay_vs.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\polyline_3d_depth_ps.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\polyline_3d_depth_ps.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\polyline_3d_depth_vs.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\polyline_3d_depth_vs.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\polyline_3d_normal_ps.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\polyline_3d_normal_ps.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\polyline_3d_overlay_ps.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\polyline_3d_overlay_ps.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\polyline_3d_vs.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\polyline_3d_vs.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\re_basic_texture_draw_vs.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\re_basic_texture_draw_vs.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\re_dilate_reduce_ps.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\re_dilate_reduce_ps.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\re_gauss_blur_13x13_ps.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\re_gauss_blur_13x13_ps.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\re_gauss_blur_17x17_ps.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\re_gauss_blur_17x17_ps.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\re_gauss_blur_5x5_ps.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\re_gauss_blur_5x5_ps.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\re_gauss_blur_9x9_ps.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\re_gauss_blur_9x9_ps.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\re_multi_texture_draw_ps.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\re_multi_texture_draw_ps.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\re_multi_ubo_draw_ps.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\re_multi_ubo_draw_ps.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\re_selection_finalize_mask_ps.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\re_selection_finalize_mask_ps.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\re_selection_finalize_ps.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\re_selection_finalize_ps.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\re_texture_3d_draw_ps.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\re_texture_3d_draw_ps.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\re_texture_3d_draw_vs.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\re_texture_3d_draw_vs.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\re_texture_draw_ps.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\re_texture_draw_ps.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\re_texture_draw_vs.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\re_texture_draw_vs.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\re_texture_scaled_draw_vs.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\re_texture_scaled_draw_vs.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\re_tex_image_modify_ps.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\re_tex_image_modify_ps.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\re_vertex_texture_scaled_draw_vs.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\re_vertex_texture_scaled_draw_vs.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\rt_basic_depth_ps.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\rt_basic_depth_ps.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\rt_draw_texture_ps.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\rt_draw_texture_ps.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\rt_min_max_depth_cs.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\rt_min_max_depth_cs.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\rt_oit_compose_ps.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\rt_oit_compose_ps.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\rt_oit_tile_draw_ps.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\rt_oit_tile_draw_ps.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\rt_texture_subsampling_ps.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\rt_texture_subsampling_ps.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\rt_texture_subsampling_vs.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\rt_texture_subsampling_vs.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\rt_tile_depth_vs.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\rt_tile_depth_vs.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\rt_tile_draw_ps.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\rt_tile_draw_ps.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\rt_tile_draw_vs.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\rt_tile_draw_vs.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\sequence_area_line_normal_ps.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\sequence_area_line_normal_ps.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\sequence_area_line_normal_vs.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\sequence_area_line_normal_vs.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\sequence_area_line_pick_ps.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\sequence_area_line_pick_ps.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\sequence_area_line_pick_vs.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\sequence_area_line_pick_vs.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\sequence_dynamic_marker_normal_ps.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\sequence_dynamic_marker_normal_ps.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\sequence_dynamic_marker_normal_vs.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\sequence_dynamic_marker_normal_vs.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\sequence_dynamic_marker_pick_ps.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\sequence_dynamic_marker_pick_ps.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\sequence_dynamic_marker_pick_vs.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\sequence_dynamic_marker_pick_vs.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\sequence_marker_normal_ps.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\sequence_marker_normal_ps.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\sequence_marker_normal_vs.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\sequence_marker_normal_vs.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\sequence_marker_pick_ps.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\sequence_marker_pick_ps.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\sequence_marker_pick_vs.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\sequence_marker_pick_vs.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\star_3d_ps.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\star_3d_ps.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\star_3d_vs.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\star_3d_vs.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\test_compute_shader_cs.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\test_compute_shader_cs.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\text_3d_draw_ps.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\text_3d_draw_ps.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\text_3d_draw_vs.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\text_3d_draw_vs.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\tile_3d_depth_vs.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\tile_3d_depth_vs.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\tile_3d_draped_graphics_ps.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\tile_3d_draped_graphics_ps.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\tile_3d_draped_graphics_vs.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\tile_3d_draped_graphics_vs.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\tile_3d_draw_ps.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\tile_3d_draw_ps.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\tile_3d_draw_vs.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\tile_3d_draw_vs.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\tile_3d_ground_overlay_ps.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\tile_3d_ground_overlay_ps.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\tile_3d_ground_overlay_vs.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\tile_3d_ground_overlay_vs.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\tile_imagery_composer_cs.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\tile_imagery_composer_cs.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\tile_normal_generator_global_cs.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\tile_normal_generator_global_cs.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\tile_normal_generator_global_quarter_size_cs.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\tile_normal_generator_global_quarter_size_cs.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\tile_normal_generator_local_cs.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\tile_normal_generator_local_cs.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\tile_normal_generator_local_quarter_size_cs.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\tile_normal_generator_local_quarter_size_cs.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\trianglemesh_3d_depth_ps.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\trianglemesh_3d_depth_ps.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\trianglemesh_3d_depth_vs.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\trianglemesh_3d_depth_vs.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\trianglemesh_3d_draw_ps.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\trianglemesh_3d_draw_ps.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\trianglemesh_3d_draw_vs.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\trianglemesh_3d_draw_vs.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\trianglemesh_3d_edge_ps.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\trianglemesh_3d_edge_ps.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\trianglemesh_3d_edge_vs.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\trianglemesh_3d_edge_vs.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\trianglemesh_3d_gbuf_ps.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\trianglemesh_3d_gbuf_ps.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\trianglemesh_3d_gbuf_vs.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\trianglemesh_3d_gbuf_vs.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\trianglemesh_non_instanced_3d_depth_vs.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\trianglemesh_non_instanced_3d_depth_vs.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\trianglemesh_non_instanced_3d_normal_vs.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\trianglemesh_non_instanced_3d_normal_vs.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\viewshed_post_process_3d_ps.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\viewshed_post_process_3d_ps.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\vt_background_pattern_ps.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\vt_background_pattern_ps.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\vt_background_pattern_vs.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\vt_background_pattern_vs.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\vt_background_solid_ps.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\vt_background_solid_ps.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\vt_background_solid_vs.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\vt_background_solid_vs.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\vt_circle_ps.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\vt_circle_ps.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\vt_circle_vs.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\vt_circle_vs.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\vt_fill_outline_dd_ps.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\vt_fill_outline_dd_ps.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\vt_fill_outline_dd_vs.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\vt_fill_outline_dd_vs.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\vt_fill_outline_ps.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\vt_fill_outline_ps.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\vt_fill_outline_vs.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\vt_fill_outline_vs.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\vt_fill_pattern_dd_ps.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\vt_fill_pattern_dd_ps.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\vt_fill_pattern_dd_vs.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\vt_fill_pattern_dd_vs.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\vt_fill_pattern_ps.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\vt_fill_pattern_ps.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\vt_fill_pattern_vs.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\vt_fill_pattern_vs.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\vt_fill_solid_dd_ps.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\vt_fill_solid_dd_ps.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\vt_fill_solid_dd_vs.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\vt_fill_solid_dd_vs.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\vt_fill_solid_ps.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\vt_fill_solid_ps.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\vt_fill_solid_tile_translate_vs.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\vt_fill_solid_tile_translate_vs.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\vt_fill_solid_v2_ps.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\vt_fill_solid_v2_ps.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\vt_fill_solid_view_translate_vs.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\vt_fill_solid_view_translate_vs.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\vt_fill_solid_vs.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\vt_fill_solid_vs.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\vt_icon_ps.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\vt_icon_ps.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\vt_icon_tile_translate_dd_vs.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\vt_icon_tile_translate_dd_vs.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\vt_icon_tile_translate_vs.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\vt_icon_tile_translate_vs.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\vt_icon_vs.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\vt_icon_vs.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\vt_line_dd_v2_vs.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\vt_line_dd_v2_vs.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\vt_line_pattern_ps.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\vt_line_pattern_ps.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\vt_line_pattern_vs.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\vt_line_pattern_vs.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\vt_line_ps.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\vt_line_ps.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\vt_line_v2_vs.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\vt_line_v2_vs.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\vt_line_vs.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\vt_line_vs.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\vt_sdf_ps.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\vt_sdf_ps.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\vt_sdf_vs.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\vt_sdf_vs.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\vt_stencil_write_ps.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\vt_stencil_write_ps.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\vt_stencil_write_vs.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\vt_stencil_write_vs.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\water_3d_ps.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\water_3d_ps.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.uwp\200.0.0\resources\shaders\water_3d_vs.cso">
+      <PackagePath>RuntimeCoreNet\resources\shaders\water_3d_vs.cso</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\Assets\Assets.scale-100.png">
+      <PackagePath>Assets\Assets.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\Assets\Assets.scale-125.png">
+      <PackagePath>Assets\Assets.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\Assets\Assets.scale-150.png">
+      <PackagePath>Assets\Assets.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\Assets\Assets.scale-200.png">
+      <PackagePath>Assets\Assets.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\Assets\Assets.scale-400.png">
+      <PackagePath>Assets\Assets.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\Assets\BadgeLogo.scale-100.png">
+      <PackagePath>Assets\BadgeLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\Assets\BadgeLogo.scale-125.png">
+      <PackagePath>Assets\BadgeLogo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\Assets\BadgeLogo.scale-150.png">
+      <PackagePath>Assets\BadgeLogo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\Assets\BadgeLogo.scale-200.png">
+      <PackagePath>Assets\BadgeLogo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\Assets\BadgeLogo.scale-400.png">
+      <PackagePath>Assets\BadgeLogo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\Assets\banner-background-blue.png">
+      <PackagePath>Assets\banner-background-blue.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\Assets\LargeTile.scale-100.png">
+      <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\Assets\LargeTile.scale-125.png">
+      <PackagePath>Assets\LargeTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\Assets\LargeTile.scale-150.png">
+      <PackagePath>Assets\LargeTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\Assets\LargeTile.scale-200.png">
+      <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\Assets\LargeTile.scale-400.png">
+      <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\Assets\MapIcon.png">
+      <PackagePath>Assets\MapIcon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\Assets\SmallTile.scale-100.png">
+      <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\Assets\SmallTile.scale-125.png">
+      <PackagePath>Assets\SmallTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\Assets\SmallTile.scale-150.png">
+      <PackagePath>Assets\SmallTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\Assets\SmallTile.scale-200.png">
+      <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\Assets\SmallTile.scale-400.png">
+      <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\Assets\SplashScreen.scale-125.png">
+      <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\Assets\SplashScreen.scale-150.png">
+      <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\Assets\SplashScreen.scale-400.png">
+      <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\Assets\Square150x150Logo.scale-100.png">
+      <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\Assets\Square150x150Logo.scale-125.png">
+      <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\Assets\Square150x150Logo.scale-150.png">
+      <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\Assets\Square150x150Logo.scale-400.png">
+      <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\Assets\Square310x310Logo.scale-100.png">
+      <PackagePath>Assets\Square310x310Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\Assets\Square310x310Logo.scale-200.png">
+      <PackagePath>Assets\Square310x310Logo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\Assets\Square310x310Logo.scale-400.png">
+      <PackagePath>Assets\Square310x310Logo.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\Assets\Square44x44Logo.scale-100.png">
+      <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\Assets\Square44x44Logo.scale-125.png">
+      <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\Assets\Square44x44Logo.scale-150.png">
+      <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\Assets\Square44x44Logo.scale-400.png">
+      <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\Assets\Square44x44Logo.targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\Assets\Square44x44Logo.targetsize-24.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\Assets\Square44x44Logo.targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\Assets\Square44x44Logo.targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\Assets\Square44x44Logo.targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\Assets\Square71x71Logo.scale-100.png">
+      <PackagePath>Assets\Square71x71Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\Assets\Square71x71Logo.scale-200.png">
+      <PackagePath>Assets\Square71x71Logo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\Assets\Square71x71Logo.scale-400.png">
+      <PackagePath>Assets\Square71x71Logo.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\Assets\StoreLogo.scale-125.png">
+      <PackagePath>Assets\StoreLogo.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\Assets\StoreLogo.scale-150.png">
+      <PackagePath>Assets\StoreLogo.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\Assets\StoreLogo.scale-400.png">
+      <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\Assets\Wide310x150Logo.scale-125.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\Assets\Wide310x150Logo.scale-150.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\Assets\Wide310x150Logo.scale-400.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.toolkit.uwp\200.0.0\contentFiles\any\uap10.0.17763\MeasureArea.scale-200.png">
+      <PackagePath>MeasureArea.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.toolkit.uwp\200.0.0\contentFiles\any\uap10.0.17763\MeasureAreaDark.scale-200.png">
+      <PackagePath>MeasureAreaDark.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.toolkit.uwp\200.0.0\contentFiles\any\uap10.0.17763\MeasureFeature.scale-200.png">
+      <PackagePath>MeasureFeature.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.toolkit.uwp\200.0.0\contentFiles\any\uap10.0.17763\MeasureFeatureDark.scale-200.png">
+      <PackagePath>MeasureFeatureDark.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.toolkit.uwp\200.0.0\contentFiles\any\uap10.0.17763\MeasureLength.scale-200.png">
+      <PackagePath>MeasureLength.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.toolkit.uwp\200.0.0\contentFiles\any\uap10.0.17763\MeasureLengthDark.scale-200.png">
+      <PackagePath>MeasureLengthDark.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\esri.arcgisruntime.toolkit.uwp\200.0.0\contentFiles\any\uap10.0.17763\calcite-ui-icons-24.ttf">
+      <PackagePath>calcite-ui-icons-24.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\bin\x64\Debug\OfflineWorkflowSample.xr.xml">
+      <PackagePath>OfflineWorkflowSample.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\bin\x64\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\bin\x64\Debug\TemplatesResourceDictionary.xbf">
+      <PackagePath>TemplatesResourceDictionary.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\bin\x64\Debug\Views\Controls\SceneWithTools.xbf">
+      <PackagePath>Views\Controls\SceneWithTools.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\bin\x64\Debug\Views\ItemPages\Offline\DownloadMapAreaView.xbf">
+      <PackagePath>Views\ItemPages\Offline\DownloadMapAreaView.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\bin\x64\Debug\Views\ItemPages\Offline\GenerateMapAreaView.xbf">
+      <PackagePath>Views\ItemPages\Offline\GenerateMapAreaView.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\bin\x64\Debug\Views\ItemPages\GenericItemPage.xbf">
+      <PackagePath>Views\ItemPages\GenericItemPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\bin\x64\Debug\Views\ItemPages\MapPage.xbf">
+      <PackagePath>Views\ItemPages\MapPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\bin\x64\Debug\Views\ItemPages\ScenePage.xbf">
+      <PackagePath>Views\ItemPages\ScenePage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\bin\x64\Debug\Views\LoginPage.xbf">
+      <PackagePath>Views\LoginPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\bin\x64\Debug\Views\Controls\MapWithTools.xbf">
+      <PackagePath>Views\Controls\MapWithTools.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\bin\x64\Debug\Views\ItemPages\Offline\OfflineMapPage.xbf">
+      <PackagePath>Views\ItemPages\Offline\OfflineMapPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\bin\x64\Debug\Views\NavigationPage.xbf">
+      <PackagePath>Views\NavigationPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\bin\x64\Debug\Views\Browsing\OfflineMapsView.xbf">
+      <PackagePath>Views\Browsing\OfflineMapsView.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\bin\x64\Debug\Views\Browsing\PortalBrowserView.xbf">
+      <PackagePath>Views\Browsing\PortalBrowserView.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\bin\x64\Debug\Views\Browsing\PortalGroupView.xbf">
+      <PackagePath>Views\Browsing\PortalGroupView.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\bin\x64\Debug\Views\Browsing\SearchPage.xbf">
+      <PackagePath>Views\Browsing\SearchPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\bin\x64\Debug\Views\SettingsPage.xbf">
+      <PackagePath>Views\SettingsPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.22000.0\\redist\Debug\X64\ucrtbased.dll">
+      <PackagePath>ucrtbased.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.22000.0\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.ui.xaml\2.8.1\buildTransitive\..\lib\uap10.0\Microsoft.UI.Xaml.winmd">
+      <PackagePath>Microsoft.UI.Xaml.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\bin\x64\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\bin\x64\Debug\Core\OfflineWorkflowSample.exe">
+      <PackagePath>OfflineWorkflowSample.exe</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Users\User\.nuget\packages\microsoft.ui.xaml\2.8.1\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.8.appx">
+      <Name>Microsoft.UI.Xaml.2.8</Name>
+      <Version>8.2208.12001.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.8, MinVersion = 8.2208.12001.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\User\.nuget\packages\microsoft.ui.xaml\2.8.1\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.8.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\User\.nuget\packages\microsoft.ui.xaml\2.8.1\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.8.appx">
+      <Name>Microsoft.UI.Xaml.2.8</Name>
+      <Version>8.2208.12001.0</Version>
+      <Architecture>Win32</Architecture>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.8, MinVersion = 8.2208.12001.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\User\.nuget\packages\microsoft.ui.xaml\2.8.1\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.8.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\User\.nuget\packages\microsoft.ui.xaml\2.8.1\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.8.appx">
+      <Name>Microsoft.UI.Xaml.2.8</Name>
+      <Version>8.2208.12001.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.8, MinVersion = 8.2208.12001.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\User\.nuget\packages\microsoft.ui.xaml\2.8.1\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.8.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\User\.nuget\packages\microsoft.ui.xaml\2.8.1\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.8.appx">
+      <Name>Microsoft.UI.Xaml.2.8</Name>
+      <Version>8.2208.12001.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.8, MinVersion = 8.2208.12001.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\User\.nuget\packages\microsoft.ui.xaml\2.8.1\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.8.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\User\.nuget\packages\microsoft.ui.xaml\2.8.1\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.8.appx">
+      <Name>Microsoft.UI.Xaml.2.8</Name>
+      <Version>8.2208.12001.0</Version>
+      <Architecture>arm64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.8, MinVersion = 8.2208.12001.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\User\.nuget\packages\microsoft.ui.xaml\2.8.1\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.8.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.31331.1</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.31331.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.31331.1</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.31331.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.31331.1</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.31331.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.31327.1</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.31327.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.31327.1</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.31327.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.31327.1</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.31327.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug.UWPDesktop</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug.UWPDesktop, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.Desktop.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug.UWPDesktop</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug.UWPDesktop, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.Desktop.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug.UWPDesktop</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug.UWPDesktop, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.Desktop.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

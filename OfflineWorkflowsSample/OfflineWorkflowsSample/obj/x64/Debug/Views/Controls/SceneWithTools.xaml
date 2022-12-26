@@ -1,0 +1,126 @@
+﻿<UserControl x:ConnectionId='1'
+    x:Class="OfflineWorkflowSample.Controls.SceneWithTools"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:controls="using:Esri.ArcGISRuntime.UI.Controls"
+    xmlns:controls1="using:Esri.ArcGISRuntime.Toolkit.UI.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mapping="using:Esri.ArcGISRuntime.Mapping"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    d:DesignHeight="300"
+    d:DesignWidth="400"
+    mc:Ignorable="d">
+
+    <UserControl.Resources>
+        <DataTemplate x:Key="LayerItemTemplate"                           >
+            <TextBlock x:ConnectionId='3'                      />
+        </DataTemplate>
+    </UserControl.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="1">
+            <controls:SceneView x:ConnectionId='13' x:Name="MySceneView"                                     />
+            <controls1:Compass x:ConnectionId='14'
+                Width="40"
+                Height="40"
+                Margin="20,30"
+                HorizontalAlignment="Right"
+                VerticalAlignment="Bottom"
+                AutoHide="False"
+                                                            />
+            <Grid HorizontalAlignment="Left" VerticalAlignment="Top">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="auto" />
+                </Grid.RowDefinitions>
+                <StackPanel Background="{ThemeResource SystemControlChromeHighAcrylicElementMediumBrush}">
+                    <AppBarButton x:ConnectionId='15'
+                        Height="48"
+                                                 
+                        Icon="AllApps"
+                        IsCompact="True"
+                        Label="Legend" />
+                    <AppBarButton Icon="List" Label="Choose basemap">
+                        <AppBarButton.Flyout>
+                            <Flyout>
+                                <GridView x:ConnectionId='16'
+                                    Width="230"
+                                                                                                              
+                                    SelectedItem="{Binding Scene.Basemap, Mode=TwoWay}">
+                                    <GridView.ItemTemplate>
+                                        <DataTemplate                             >
+                                            <Grid x:ConnectionId='18'
+                                                Width="100"
+                                                Height="100"
+                                                Margin="5">
+                                                <Image
+                                                    Width="100"
+                                                    Height="100"
+                                                    HorizontalAlignment="Stretch"
+                                                    VerticalAlignment="Stretch"
+                                                    Source="{Binding Item.ThumbnailUri}"
+                                                    Stretch="UniformToFill" />
+                                                <Border
+                                                    Padding="5"
+                                                    VerticalAlignment="Top"
+                                                    Background="#7F000000">
+                                                    <TextBlock x:ConnectionId='19'
+                                                        Foreground="White"
+                                                        Opacity="1"
+                                                                            
+                                                        TextWrapping="WrapWholeWords" />
+                                                </Border>
+                                            </Grid>
+                                        </DataTemplate>
+                                    </GridView.ItemTemplate>
+                                </GridView>
+                            </Flyout>
+                        </AppBarButton.Flyout>
+                    </AppBarButton>
+                </StackPanel>
+            </Grid>
+        </Grid>
+        <Grid x:ConnectionId='4'
+            x:Name="BonusSidebar"
+            Grid.Column="0"
+            Width="350">
+            <Pivot x:ConnectionId='5' x:Name="OuterPivot">
+                <PivotItem Header="Info">
+                    <ScrollViewer>
+                        <StackPanel>
+                            <TextBlock x:ConnectionId='9' Style="{StaticResource SubtitleTextBlockStyle}"                                              />
+                            <Image x:ConnectionId='10' Margin="5"                                               />
+                            <TextBlock x:ConnectionId='11'
+                                Style="{StaticResource BodyTextBlockStyle}"
+                                                                                  
+                                TextWrapping="Wrap" />
+                            <Button x:ConnectionId='12'
+                                HorizontalAlignment="Stretch"
+                                                                                  
+                                Content="Open in ArcGIS Online" />
+                        </StackPanel>
+                    </ScrollViewer>
+                </PivotItem>
+                <PivotItem Header="Legend">
+                    <controls1:Legend x:ConnectionId='8'                                              />
+                </PivotItem>
+                <PivotItem Header="Layers">
+                    <ScrollViewer>
+                        <StackPanel>
+                            <TextBlock Style="{StaticResource SubtitleTextBlockStyle}" Text="Operational layers" />
+                            <ListView x:ConnectionId='6' ItemTemplate="{StaticResource LayerItemTemplate}"                                                             />
+                            <TextBlock Style="{StaticResource SubtitleTextBlockStyle}" Text="Basemap" />
+                            <TextBlock x:ConnectionId='7' Padding="15,10,0,0"                                                 />
+                        </StackPanel>
+                    </ScrollViewer>
+                </PivotItem>
+            </Pivot>
+        </Grid>
+    </Grid>
+</UserControl>
+

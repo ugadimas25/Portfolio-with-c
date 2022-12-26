@@ -1,0 +1,1 @@
+C:\Users\User\Downloads\arcgis-runtime-demos-dotnet-main\arcgis-runtime-demos-dotnet-main\src\OfflineWorkflowsSample\OfflineWorkflowsSample\OfflineWorkflowsSample.csproj;x64
